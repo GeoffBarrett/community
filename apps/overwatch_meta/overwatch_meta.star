@@ -26,7 +26,6 @@ USER_AGENT = "Tidbyt"
 # content regex patterns
 PCT_PATTERN = "((100(?:\\.0+)?)|([0-9]?[0-9](?:\\.[0-9]+)?))$"
 
-# PCT_PATTERN = "(\\d+(?:\\.\\d+)?)"
 ALPHA_ALPHA_NUM_PATTERN = "([a-zA-Z]+\\d+\\.\\d+)"
 
 RATES_START = "Pick RateWin Rate"
@@ -58,8 +57,6 @@ GAME_MODES = struct(quickplay = "0", competitive = "1")
 
 # regions
 REGION = struct(americas = "Americas", asia = "Asia", europe = "Europe")
-
-# TODO: it is skipping lucio, also check what happens with "--"
 
 # hero roles
 ROLES = struct(
